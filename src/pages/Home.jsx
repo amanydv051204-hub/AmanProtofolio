@@ -51,10 +51,10 @@ function Home() {
       <div className='bg-[rgb(240,241,243)] h-100'>
         <div className='pl-5 lg:pr-40 lg:pl-40 lg:pt-20 pt-5 lg:gap-5 flex flex-col'>
           <h1 className='font-bold text-[25px] lg:text-5xl bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent'>About Me</h1>
-          <p className='font-semibold text-md lg:text-2xl'>I’m a tech professional and love building things that make a difference. Technology excites me, and I enjoy tackling challenges with creative solutions. I’m curious by nature, always learning, and thrive when bringing fresh ideas to projects. My goal is to grow, contribute meaningfully, and make every project I touch better than before.</p>
+          <p className='font-semibold text-md lg:text-2xl'>I’m  tech  professional and love building things that make a difference. Technology excites me, and I enjoy tackling challenges with creative solutions. I’m curious by nature, always learning, and thrive when bringing fresh ideas to projects. My goal is to grow, contribute meaningfully, and make every project I touch better than before.</p>
           <div className=' flex lg:flex-row pt-3 flex-col lg:gap-5'>
 
-            <a href={resumee} target="_blank" rel="noopener      noreferrer" download="Aman_Yadav_Resume.pdf"
+            <a href={resumee} target="_blank" rel="noopener      noreferrer" download="#"
               className="mt-5 lg:mt-0 px-4 py-2 border-2 font-bold text-black w-max text-center">
               Download Resume
             </a>
