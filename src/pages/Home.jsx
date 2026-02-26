@@ -54,9 +54,12 @@ function Home() {
           <p className='font-semibold text-md lg:text-2xl'>I’m  tech  professional and love building things that make a difference. Technology excites me, and I enjoy tackling challenges with creative solutions. I’m curious by nature, always learning, and thrive when bringing fresh ideas to projects. My goal is to grow, contribute meaningfully, and make every project I touch better than before.</p>
           <div className=' flex lg:flex-row pt-3 flex-col lg:gap-5'>
 
-            <a href={} target="_blank" rel="noopener      noreferrer" download="#"
-              className="mt-5 lg:mt-0 px-4 py-2 border-2 font-bold text-black w-max text-center">
-              Download Resume
+           <a
+             href="#"
+              onClick={(e) => e.preventDefault()}
+               className="mt-5 lg:mt-0 px-4 py-2 border-2 font-bold text-black w-max text-center opacity-50 cursor-not-allowed"
+                  >
+             Download Resume (Coming Soon)
             </a>
           </div>
         </div>
